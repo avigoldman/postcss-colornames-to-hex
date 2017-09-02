@@ -13,5 +13,10 @@
   "main": "index.js",
   "author": "Avi Goldman <me@avigoldman.com> (http://avigoldman.com)",
   "license": "MIT",
-  "repository": "https://github.com/avigoldman/postcss-colornames-to-hex.git"
+  "repository": "https://github.com/avigoldman/postcss-colornames-to-hex.git",
+  "dependencies": {
+    "css-color-names": "0.0.4",
+    "postcss": "^6.0.10",
+    "postcss-value-parser": "^3.3.0"
+  }
 }
