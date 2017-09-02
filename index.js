@@ -1,3 +1,4 @@
+'use strict';
 
 const postcss = require('postcss');
 const valueParser = require('postcss-value-parser');
