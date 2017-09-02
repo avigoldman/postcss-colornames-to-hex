@@ -1,0 +1,17 @@
+{
+  "name": "postcss-colornames-to-hex",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to convert color names to hexadecimal values",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "color",
+    "colornames",
+    "hexadecimal"
+  ],
+  "main": "index.js",
+  "author": "Avi Goldman <me@avigoldman.com> (http://avigoldman.com)",
+  "license": "MIT",
+  "repository": "https://github.com/avigoldman/postcss-colornames-to-hex.git"
+}
