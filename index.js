@@ -6,8 +6,8 @@ const csscolors = require('css-color-names');
 
 
 function convertColors(node) {
-  if (node.type === 'word' && csscolors.hasOwnProperty(node.value)) {
-    node.value = csscolors[node.value].toUpperCase();
+  if (node.type === 'word' && csscolors.hasOwnProperty(node.value.toLowerCase())) {
+    node.value = csscolors[node.value.toLowerCase()].toUpperCase();
   }
 }
 

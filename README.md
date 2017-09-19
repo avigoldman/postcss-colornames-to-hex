@@ -4,13 +4,13 @@ This plugin will convert CSS color names like `blue` or `black` to their hexadec
 
 ### Installation
 
-```
+```sh
 npm install postcss-colornames-to-hex --save
 ```
 
 ### Usage
 
-```
+```js
 postcss([ require('postcss-colornames-to-hex') ])
 // do your processing here 🎉
 ```
